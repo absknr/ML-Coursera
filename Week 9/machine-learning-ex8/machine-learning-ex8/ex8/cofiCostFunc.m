@@ -69,7 +69,7 @@ end
 J = (1 / 2) * J + (lambda / 2) * (sum(sum(Theta .^ 2)) + sum(sum(X .^ 2)));
 
 
-% X_grad calculation
+% Calculating X_grad
 for i = 1 : num_movies
 	
 	% find the users who have rated i'th movie
